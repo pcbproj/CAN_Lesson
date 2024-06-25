@@ -38,7 +38,8 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="40" useTextEdit="1" path="main.c" left="0" selected="1" top="9" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="60" useTextEdit="1" path="main.c" left="0" selected="1" top="35" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="272" useTextEdit="1" openedFrom="C:/work/pcbteach/02_myproj/MCU/02_LessonsProjects_V2/08_CAN/CAN_Lesson/main.c" path="STM32F4xx/Device/Include/stm32f407xx.h" left="0" top="243" codecName="Default"/>
  </Files>
  <EMStudioWindow activeProject="08_CAN_Lesson" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="D:/Work/PCBteach/docs/02_MY_projects/MCU/02_Lessons_Projects_V2/08_CAN/CAN_lesson" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

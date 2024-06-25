@@ -16,11 +16,8 @@ Purpose : Generic application start
 */
 
 /*
-I2C project for lesson
-по кнопке S1 происходит запись массива данных из 4-х  байт в I2C EEPROM, начиная с выбранной ячейки памяти.
-по кнопке S2 происходит изменение адреса в EEPROM циклически между 8-мью адресами. 
-	-- Индикация смещения на LED1-LED3.
-по кнопке S3 происходит чтение массива данных (4 байта) из EEPROM, начиная с выбранной ячейки памати и сохранение в массив
+Периодически отправляются сообщения по CAN от МК в ПК. Информация о состоянии кнопок
+Прием от ПК соообщения с конкретным ID, по которому МК зажигает либо гасит светодиоды.
 
 */
 
@@ -29,6 +26,42 @@ I2C project for lesson
 #include <stdlib.h>
 #include "stm32f407xx.h"
 
+
+
+void RCC_Init(void);
+
+void GPIO_Init(void){
+	RCC->AHB1ENR |= RCC_AHB1ENR_GPIOEEN;
+	
+	//-------- GPIO for buttons -------------------
+	GPIOE -> PUPDR |= GPIO_PUPDR_PUPD10_0;
+	GPIOE -> PUPDR |= GPIO_PUPDR_PUPD11_0;
+	GPIOE -> PUPDR |= GPIO_PUPDR_PUPD12_0;
+	   
+	//-------- GPIO settings for LED1 LED2 LED3 --------
+	GPIOE -> MODER |=GPIO_MODER_MODE13_0;
+	GPIOE -> MODER |=GPIO_MODER_MODE14_0;
+	GPIOE -> MODER |=GPIO_MODER_MODE15_0;
+
+}
+
+
+
+void CAN1_Init(void){
+
+}
+
+
+
+void CAN1_Receive(void){
+	// прием сообщений из CAN шины
+	// опрос FIFO
+
+	if ((CAN1->RF0R & CAN_RF0R_FMP0) != 0){	
+		
+	
+	}
+}
 
 
 int main(void){

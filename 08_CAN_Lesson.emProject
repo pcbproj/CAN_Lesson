@@ -61,6 +61,17 @@
         <configuration Name="Common" file_type="Assembly" />
       </file>
     </folder>
+    <configuration
+      Name="Debug"
+      debug_target_connection="GDB Server"
+      gdb_server_allow_memory_access_during_execution="Yes"
+      gdb_server_autostart_server="No"
+      gdb_server_command_line=""
+      gdb_server_ignore_checksum_errors="No"
+      gdb_server_port="3333"
+      gdb_server_register_access="General and Individual"
+      gdb_server_reset_command="reset halt"
+      gdb_server_type="OpenOCD" />
   </project>
   <configuration
     Name="Debug"

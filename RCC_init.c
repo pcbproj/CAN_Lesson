@@ -13,7 +13,7 @@ PLL_CLK = VCO_CLK / 2;
 HSE_CLK = 25 MHz quartz resonator
 VCO_CLK = 168 MHZ = 25 MHz / 25 * 168 следовательно, M = 25, N = 168
 PLL_CLK = 84 MHz
-SYSCLK = 84 MHz
+AHB1_AHB2_CLK = 84 MHz
 APB1_CLK = 42 MHz
 APB2_CLK = 84 MHz
 */ 

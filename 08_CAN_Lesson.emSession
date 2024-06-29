@@ -1,9 +1,7 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
  <Bookmarks/>
- <Breakpoints groups="Breakpoints" active_group="Breakpoints">
-  <BreakpointListItem trigger="" line="364" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="main.c" useHWbreakpoint="false"/>
- </Breakpoints>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
   <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
@@ -27,7 +25,7 @@
   <ProjectSessionItem path="08_CAN_Lesson;08_CAN_Lesson;Source Files"/>
  </Project>
  <Register1>
-  <RegisterWindow visibleNodes="RCC/CR;RCC/PLLCFGR;RCC/CFGR;RCC/CIR;RCC/AHB1RSTR;RCC/AHB2RSTR;RCC/AHB3RSTR;RCC/APB1RSTR;RCC/APB2RSTR;RCC/AHB1ENR;RCC/AHB2ENR;RCC/AHB3ENR;RCC/APB1ENR;RCC/APB2ENR;RCC/AHB1LPENR;RCC/AHB2LPENR;RCC/AHB3LPENR;RCC/APB1LPENR;RCC/APB2LPENR;RCC/BDCR;RCC/CSR;RCC/SSCGR;RCC/PLLI2SCFGR;CAN2/MCR;CAN2/MSR;CAN2/TSR;CAN2/RF0R;CAN2/RF1R;CAN2/IER;CAN2/ESR;CAN2/BTR;CAN2/TI0R;CAN2/TDT0R;CAN2/TDL0R;CAN2/TDH0R;CAN2/TI1R;CAN2/TDT1R;CAN2/TDL1R;CAN2/TDH1R;CAN2/TI2R;CAN2/TDT2R;CAN2/TDL2R;CAN2/TDH2R;CAN2/RI0R;CAN2/RDT0R;CAN2/RDL0R;CAN2/RDH0R;CAN2/RI1R;CAN2/RDT1R;CAN2/RDL1R;CAN2/RDH1R;CAN2/FMR;CAN2/FM1R;CAN2/FS1R;CAN2/FFA1R;CAN2/FA1R;CAN2/F0R1;CAN2/F0R2;CAN2/F1R1;CAN2/F1R2;CAN2/F2R1;CAN2/F2R2;CAN2/F3R1;CAN2/F3R2;CAN2/F4R1;CAN2/F4R2;CAN2/F5R1;CAN2/F5R2;CAN2/F6R1;CAN2/F6R2;CAN2/F7R1;CAN2/F7R2;CAN2/F8R1;CAN2/F8R2;CAN2/F9R1;CAN2/F9R2;CAN2/F10R1;CAN2/F10R2;CAN2/F11R1;CAN2/F11R2;CAN2/F12R1;CAN2/F12R2;CAN2/F13R1;CAN2/F13R2;CAN2/F14R1;CAN2/F14R2;CAN2/F15R1;CAN2/F15R2;CAN2/F16R1;CAN2/F16R2;CAN2/F17R1;CAN2/F17R2;CAN2/F18R1;CAN2/F18R2;CAN2/F19R1;CAN2/F19R2;CAN2/F20R1;CAN2/F20R2;CAN2/F21R1;CAN2/F21R2;CAN2/F22R1;CAN2/F22R2;CAN2/F23R1;CAN2/F23R2;CAN2/F24R1;CAN2/F24R2;CAN2/F25R1;CAN2/F25R2;CAN2/F26R1;CAN2/F26R2;CAN2/F27R1;CAN2/F27R2;GPIOB/MODER;GPIOB/OTYPER;GPIOB/OSPEEDR;GPIOB/PUPDR;GPIOB/IDR;GPIOB/ODR;GPIOB/BSRR;GPIOB/LCKR;GPIOB/AFRL;GPIOB/AFRH" binaryNodes="" asciiNodes="" openNodes="CAN2;CAN2/MCR;CAN2/MSR;GPIOB/MODER;GPIOB/AFRL" name="08_CAN_Lesson" decimalNodes="" octalNodes="" unsignedNodes=""/>
+  <RegisterWindow visibleNodes="RCC/CR;RCC/PLLCFGR;RCC/CFGR;RCC/CIR;RCC/AHB1RSTR;RCC/AHB2RSTR;RCC/AHB3RSTR;RCC/APB1RSTR;RCC/APB2RSTR;RCC/AHB1ENR;RCC/AHB2ENR;RCC/AHB3ENR;RCC/APB1ENR;RCC/APB2ENR;RCC/AHB1LPENR;RCC/AHB2LPENR;RCC/AHB3LPENR;RCC/APB1LPENR;RCC/APB2LPENR;RCC/BDCR;RCC/CSR;RCC/SSCGR;RCC/PLLI2SCFGR;CAN2/MCR;CAN2/MSR;CAN2/TSR;CAN2/RF0R;CAN2/RF1R;CAN2/IER;CAN2/ESR;CAN2/BTR;CAN2/TI0R;CAN2/TDT0R;CAN2/TDL0R;CAN2/TDH0R;CAN2/TI1R;CAN2/TDT1R;CAN2/TDL1R;CAN2/TDH1R;CAN2/TI2R;CAN2/TDT2R;CAN2/TDL2R;CAN2/TDH2R;CAN2/RI0R;CAN2/RDT0R;CAN2/RDL0R;CAN2/RDH0R;CAN2/RI1R;CAN2/RDT1R;CAN2/RDL1R;CAN2/RDH1R;CAN2/FMR;CAN2/FM1R;CAN2/FS1R;CAN2/FFA1R;CAN2/FA1R;CAN2/F0R1;CAN2/F0R2;CAN2/F1R1;CAN2/F1R2;CAN2/F2R1;CAN2/F2R2;CAN2/F3R1;CAN2/F3R2;CAN2/F4R1;CAN2/F4R2;CAN2/F5R1;CAN2/F5R2;CAN2/F6R1;CAN2/F6R2;CAN2/F7R1;CAN2/F7R2;CAN2/F8R1;CAN2/F8R2;CAN2/F9R1;CAN2/F9R2;CAN2/F10R1;CAN2/F10R2;CAN2/F11R1;CAN2/F11R2;CAN2/F12R1;CAN2/F12R2;CAN2/F13R1;CAN2/F13R2;CAN2/F14R1;CAN2/F14R2;CAN2/F15R1;CAN2/F15R2;CAN2/F16R1;CAN2/F16R2;CAN2/F17R1;CAN2/F17R2;CAN2/F18R1;CAN2/F18R2;CAN2/F19R1;CAN2/F19R2;CAN2/F20R1;CAN2/F20R2;CAN2/F21R1;CAN2/F21R2;CAN2/F22R1;CAN2/F22R2;CAN2/F23R1;CAN2/F23R2;CAN2/F24R1;CAN2/F24R2;CAN2/F25R1;CAN2/F25R2;CAN2/F26R1;CAN2/F26R2;CAN2/F27R1;CAN2/F27R2;GPIOB/MODER;GPIOB/OTYPER;GPIOB/OSPEEDR;GPIOB/PUPDR;GPIOB/IDR;GPIOB/ODR;GPIOB/BSRR;GPIOB/LCKR;GPIOB/AFRL;GPIOB/AFRH;CAN1/MCR;CAN1/MSR;CAN1/TSR;CAN1/RF0R;CAN1/RF1R;CAN1/IER;CAN1/ESR;CAN1/BTR;CAN1/TI0R;CAN1/TDT0R;CAN1/TDL0R;CAN1/TDH0R;CAN1/TI1R;CAN1/TDT1R;CAN1/TDL1R;CAN1/TDH1R;CAN1/TI2R;CAN1/TDT2R;CAN1/TDL2R;CAN1/TDH2R;CAN1/RI0R;CAN1/RDT0R;CAN1/RDL0R;CAN1/RDH0R;CAN1/RI1R;CAN1/RDT1R;CAN1/RDL1R;CAN1/RDH1R;CAN1/FMR;CAN1/FM1R;CAN1/FS1R;CAN1/FFA1R;CAN1/FA1R;CAN1/F0R1;CAN1/F0R2;CAN1/F1R1;CAN1/F1R2;CAN1/F2R1;CAN1/F2R2;CAN1/F3R1;CAN1/F3R2;CAN1/F4R1;CAN1/F4R2;CAN1/F5R1;CAN1/F5R2;CAN1/F6R1;CAN1/F6R2;CAN1/F7R1;CAN1/F7R2;CAN1/F8R1;CAN1/F8R2;CAN1/F9R1;CAN1/F9R2;CAN1/F10R1;CAN1/F10R2;CAN1/F11R1;CAN1/F11R2;CAN1/F12R1;CAN1/F12R2;CAN1/F13R1;CAN1/F13R2;CAN1/F14R1;CAN1/F14R2;CAN1/F15R1;CAN1/F15R2;CAN1/F16R1;CAN1/F16R2;CAN1/F17R1;CAN1/F17R2;CAN1/F18R1;CAN1/F18R2;CAN1/F19R1;CAN1/F19R2;CAN1/F20R1;CAN1/F20R2;CAN1/F21R1;CAN1/F21R2;CAN1/F22R1;CAN1/F22R2;CAN1/F23R1;CAN1/F23R2;CAN1/F24R1;CAN1/F24R2;CAN1/F25R1;CAN1/F25R2;CAN1/F26R1;CAN1/F26R2;CAN1/F27R1;CAN1/F27R2" binaryNodes="" asciiNodes="" openNodes="CAN2;CAN2/TI0R;CAN2/TDT0R;CAN2/FMR;GPIOB/AFRL;CAN1;CAN1/TI0R;CAN1/TDT0R" name="08_CAN_Lesson" decimalNodes="" octalNodes="" unsignedNodes=""/>
  </Register1>
  <Register2>
   <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="08_CAN_Lesson" decimalNodes="" octalNodes="" unsignedNodes=""/>
@@ -46,7 +44,8 @@
  </TraceWindow>
  <Watch1>
   <Watches active="1" update="Never">
-   <Watchpoint expression="can_tx_data_bytes" name="can_tx_data_bytes" radix="-1" linenumber="350" filename="main.c"/>
+   <Watchpoint expression="can_tx_data_bytes" name="can_tx_data_bytes" radix="-1" linenumber="369" filename="main.c"/>
+   <Watchpoint expression="tx_array" name="tx_array" radix="-1" linenumber="260" filename="main.c"/>
   </Watches>
  </Watch1>
  <Watch2>
@@ -59,10 +58,10 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="320" useTextEdit="1" path="main.c" left="0" selected="1" top="339" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="1105" useTextEdit="1" openedFrom="D:/Work/PCBteach/docs/02_MY_projects/MCU/02_Lessons_Projects_V2/08_CAN/CAN_lesson/main.c" path="STM32F4xx/Device/Include/stm32f407xx.h" left="0" top="1083" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="339" useTextEdit="1" path="main.c" left="0" selected="1" top="357" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="220" useTextEdit="1" openedFrom="D:/Work/PCBteach/docs/02_MY_projects/MCU/02_Lessons_Projects_V2/08_CAN/CAN_lesson/main.c" path="STM32F4xx/Device/Include/stm32f407xx.h" left="0" top="199" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2022" useTextEdit="1" path="CMSIS_5/CMSIS/Core/Include/core_cm4.h" left="0" top="2001" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="RCC_init.c" left="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="9" y="15" useTextEdit="1" path="RCC_init.c" left="0" top="0" codecName="Default"/>
  </Files>
  <EMStudioWindow activeProject="08_CAN_Lesson" fileDialogDefaultFilter="*.c" autoConnectTarget="GDB Server" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="1343"/>
 </session>

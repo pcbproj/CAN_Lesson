@@ -32,7 +32,7 @@
 #include "stm32f4xx.h"
 
 
-#define CAN_TX_TIME_MS		100		// время ожидания в мс для отправки сообщения по CAN
+#define CAN_TX_TIME_MS		300		// время ожидания в мс для отправки сообщения по CAN
 #define BTN_CHECK_MS		10		// период опроса кнопок в мс
 #define	BTN_PRESS_CNT		4		// кол-во последовательных проверок состояния кнопки
 
@@ -123,15 +123,7 @@ void BTN_Check(void){
 
 void CAN2_Init(void){
 	
-	//RCC -> AHB1ENR |=	RCC_AHB1ENR_GPIODEN;			// включение тактирования GPIOD: PD0 = CAN1_RX, PD1 = CAN1_TX 
 	
-	
-	//GPIOD -> MODER |= GPIO_MODER_MODE0_1;				// настройка PD0 в альтернативный режим
-	//GPIOD -> AFR[0] |= (9U << GPIO_AFRL_AFSEL0_Pos);	// выбор альтернативной функции AF9 для PD0
-	
-	//GPIOD -> MODER |= GPIO_MODER_MODE1_1;				// настройка PD1 в альтернативный режим
-	//GPIOD -> AFR[0] |= (9U << GPIO_AFRL_AFSEL1_Pos);	// выбор альтернативной функции AF9 для PD1
-
 	RCC -> AHB1ENR |=	RCC_AHB1ENR_GPIOBEN;			// включение тактирования GPIOB: PB5 = CAN2_RX, PB6 = CAN2_TX 
 	RCC -> APB1ENR |=	RCC_APB1ENR_CAN2EN;				// включение тактирования CAN2
 	RCC -> APB1ENR |=	RCC_APB1ENR_CAN1EN;				// включение тактирования CAN1

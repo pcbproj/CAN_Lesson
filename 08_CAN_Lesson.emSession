@@ -44,8 +44,8 @@
  </TraceWindow>
  <Watch1>
   <Watches active="1" update="Never">
-   <Watchpoint expression="can_tx_data_bytes" name="can_tx_data_bytes" radix="-1" linenumber="369" filename="main.c"/>
-   <Watchpoint expression="tx_array" name="tx_array" radix="-1" linenumber="260" filename="main.c"/>
+   <Watchpoint expression="can_tx_data_bytes" name="can_tx_data_bytes" radix="-1" linenumber="361" filename="main.c"/>
+   <Watchpoint expression="tx_array" name="tx_array" radix="-1" linenumber="252" filename="main.c"/>
   </Watches>
  </Watch1>
  <Watch2>
@@ -58,7 +58,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="339" useTextEdit="1" path="main.c" left="0" selected="1" top="357" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="1" y="125" useTextEdit="1" path="main.c" left="0" selected="1" top="13" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="2" y="220" useTextEdit="1" openedFrom="D:/Work/PCBteach/docs/02_MY_projects/MCU/02_Lessons_Projects_V2/08_CAN/CAN_lesson/main.c" path="STM32F4xx/Device/Include/stm32f407xx.h" left="0" top="199" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="2022" useTextEdit="1" path="CMSIS_5/CMSIS/Core/Include/core_cm4.h" left="0" top="2001" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="9" y="15" useTextEdit="1" path="RCC_init.c" left="0" top="0" codecName="Default"/>

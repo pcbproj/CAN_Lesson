@@ -329,7 +329,7 @@ int main(void){
 	char can_tx_data_bytes[CAN_TX_DATA_LEN] = { 0x11, 0x22, 0x33, 0x44, 0x55, 0x66, 0x77, 0x88 };	// байт данных для отправки по CAN1, содержит состояния кнопок
 	char can_rx_data_bytes[] = {};					// байты данных, принимаемые по CAN
 	uint16_t can_rx_frame_id = 0;
-	static uint16_t can_rx_data_len = 0;
+	uint16_t can_rx_data_len = 0;
 	char can_err_code = 0;
 	
 	RCC_Init();
